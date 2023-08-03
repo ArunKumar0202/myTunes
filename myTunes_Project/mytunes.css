@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+body{
+    color: #fff;
+    line-height: 1.6;
+    background-color: #252529;
+}
+nav ul li a{
+    color: #fff;
+}
+#div1{
+    height: 100vh;
+    width: 100%;
+    background: url(../../HTML/image/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    position: fixed;
+    min-width: 100%;
+    height: 30px;
+    display: flex;
+    gap: 50px;
+    padding: 6px 0;
+    background-color: #252529;
+    font-size: 18px;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+nav li a:hover{
+    background-color: #444;
+    padding: 8px;
+}
+
+img{
+    width: 100%;
+}
+#container-1{
+    padding: 125px;
+}
+.container h1{
+    font-size: 64px;
+}
+.container h2{
+    font-size: 32px;
+}
+.para{
+    font-size: 22px;
+}
+.container{
+    text-align: center;
+    /* padding: 20px; */
+}
+.heading-2{
+    font-size: 40px;
+}
+.container h3{
+    font-size: 35px;
+}
+#container-2{
+    padding: 20px 85px;
+}
+#start-trail{
+    padding: 16px;
+    color: #fff;
+    background-color: #b90415;
+    text-decoration: none;
+    display: inline-block;
+}
+#start-trail:hover{
+    background-color: #d3071b;
+}
+#para2{
+    color: #f4f4f4;
+}
+#div3{
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 30px 95px;
+}
+#Read-more{
+    background-color: #103063;
+    padding: 16px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+#Read-more:hover{
+    background-color: #143f85;
+}
+#div4{
+    background: url(../../HTML/image/myTunes/section-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 180px 50px;
+}
+#gift-card{
+    background: #f4f4f4;
+    color: #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: left;
+    padding: 50px 55px;
+}
+#last-para{
+    font-size: 18px;
+}
+#redeem{
+    text-decoration: none;
+    color: #103063;
+}
+ li a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+#footer-2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+}
+#footer-2 ul li:first-child{
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+#footer-bottom{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
